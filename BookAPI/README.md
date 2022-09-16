@@ -1,6 +1,7 @@
 # BookAPI
 
-## -AuthenticationController - służy do tego by po dostaniu od nas loginu i hasła (UserName & Password) wygenerował nam się token, czyli służy do autentykacji jak sama nazwa mówi.
+## -AuthenticationController 
+- służy do tego by po dostaniu od nas loginu i hasła (UserName & Password) wygenerował nam się token, czyli służy do autentykacji jak sama nazwa mówi.
 
 Wklejamy ten token w miejsce na autoryzacje tokenu i inne kontrollery nam działają bez tego wywala nam błąd 401 Undocumented.
 
@@ -10,7 +11,8 @@ Oprócz autoryzacji mam tu też wersjonowanie, które służy do tego by w przys
 
 By swaggerze działały poniższe endpointy proszę ustawić Media type na application/json.
 
-## -BooksController - ma 2 endpointy GET. 
+## -BooksController
+- ma 2 endpointy GET. 
 
 Ten pierwszy bez "id" w scieżce służy do wyszukiwania w zależności od ustawień nadanych przez nas:
  wszystkich książek/ tylko tylu ile się zmieści na podanej ilości stron o podanym rozmiarze (defaultowo jest to 1dna strona o rozmiarze 10)
@@ -18,9 +20,11 @@ Ten pierwszy bez "id" w scieżce służy do wyszukiwania w zależności od ustaw
 
 Ten drugi z "id" w scieżce służy do wyszukiwania książek o podanym id- i możemy wybrać za pomocą pola typu bool czy chcemy by wypisało nam tylko książkę z tym id czy tą książkę i przypisanych do niej bohaterów.
 
-## - FilesController - ma 1den endpoint GET, dzięki któremu możemy pobrać plik przekazany w projekcie - u mnie to plik typu pdf 
+## - FilesController 
+- ma 1den endpoint GET, dzięki któremu możemy pobrać plik przekazany w projekcie - u mnie to plik typu pdf 
 
-## - HeroesController - ma 6 endpointów:
+## - HeroesController 
+- ma 6 endpointów:
 
 1) GET z bookId - odpowiada za pobranie i wyświetlenie wszystkich bohaterów ksiązki o danym ID
 2) POST - odpowiada za dodanie bohatera do ksiązki o podanym ID
