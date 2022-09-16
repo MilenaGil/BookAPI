@@ -22,13 +22,13 @@ Ten pierwszy bez "id" w scieżce służy do wyszukiwania w zależności od ustaw
 
 Ten drugi z "id" w scieżce służy do wyszukiwania książek o podanym id- i możemy wybrać za pomocą pola typu bool czy chcemy by wypisało nam tylko książkę z tym id czy tą książkę i przypisanych do niej bohaterów.
 
-## 
+## - FilesController 
 
-- FilesController - ma 1den endpoint GET, dzięki któremu możemy pobrać plik przekazany w projekcie - u mnie to plik typu pdf 
+- ma 1den endpoint GET, dzięki któremu możemy pobrać plik przekazany w projekcie - u mnie to plik typu pdf 
 
-## 
+## - HeroesController 
 
-- HeroesController - ma 6 endpointów:
+- ma 6 endpointów:
 
 1) GET z bookId - odpowiada za pobranie i wyświetlenie wszystkich bohaterów ksiązki o danym ID
 2) POST - odpowiada za dodanie bohatera do ksiązki o podanym ID
