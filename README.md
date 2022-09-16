@@ -32,7 +32,7 @@ Ten drugi z "id" w scieżce służy do wyszukiwania książek o podanym id- i mo
 
 1) GET z bookId - odpowiada za pobranie i wyświetlenie wszystkich bohaterów ksiązki o danym ID
 2) POST - odpowiada za dodanie bohatera do ksiązki o podanym ID
-3) GET z bookId i heroID - odpowiada za pobranie i wyświetlenie konkretnego bohatera o danym ID z ksiązki o podanym ID
+3) GET z bookId i heroId - odpowiada za pobranie i wyświetlenie konkretnego bohatera o danym ID z ksiązki o podanym ID
 4) PUT - odpowiada za aktualizacje wszystkich pól dotyczących bohatera o podanymID z książki o podanym ID.
 5) PATCH - odpowiada za aktualizacje tylko wybranych części pól dotyczących bohatera o podanymID z książki o podanym ID.
 6) DELETE - odpowiada za usunięcie danego bohatera
