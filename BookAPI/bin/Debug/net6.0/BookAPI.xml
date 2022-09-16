@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BookAPI.Controllers.BooksController.GetBook(System.Int32,System.Boolean)">
+            <summary>
+            Get a book by ID.
+            </summary>
+            <param name="id">The id of the book to get</param>
+            <param name="includeHeroes">Where or not to include heroes</param>
+            <returns>An IAction Result</returns>
+            <response code="200">Returns the requested book to get</response>
+        </member>
+        <member name="T:BookAPI.Models.BookWithoutHeroesDto">
+            <summary>
+            A DTO for a book without heroes
+            </summary>
+        </member>
+        <member name="P:BookAPI.Models.BookWithoutHeroesDto.Id">
+            <summary>
+            The ID of book
+            </summary>
+        </member>
+        <member name="P:BookAPI.Models.BookWithoutHeroesDto.Title">
+            <summary>
+            The book's title
+            </summary>
+        </member>
+        <member name="P:BookAPI.Models.BookWithoutHeroesDto.Description">
+            <summary>
+            The description of this book
+            </summary>
+        </member>
+    </members>
+</doc>
